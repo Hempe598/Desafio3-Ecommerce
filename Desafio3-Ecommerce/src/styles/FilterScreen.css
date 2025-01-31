@@ -1,0 +1,86 @@
+/* Contêiner principal do filtro */
+.filter-container {
+  position: fixed; /* Garante que o filtro cubra toda a tela */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ocupa toda a largura */
+  height: 100%; /* Ocupa toda a altura */
+  background-image: url("../assets/Filter.png"); /* Define uma imagem de fundo */
+  background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+  background-position: center; /* Centraliza a imagem */
+  display: flex; /* Usa flexbox para centralizar os elementos */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+/* Conteúdo do filtro */
+.filter-content {
+  background-color: rgba(255, 255, 255, 0.9); /* Fundo branco semi-transparente */
+  padding: 20px; /* Adiciona espaçamento interno */
+  border-radius: 16px; /* Bordas arredondadas */
+  width: 90%; /* Define a largura máxima */
+  max-width: 400px; /* Limita a largura do modal */
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Botão de fechar o filtro */
+.close-button {
+  position: absolute; /* Posiciona o botão no topo direito */
+  top: 20px;
+  right: 20px;
+  background: none; /* Remove o fundo do botão */
+  border: none; /* Remove a borda */
+  font-size: 24px; /* Aumenta o tamanho do botão */
+  cursor: pointer; /* Indica que o botão é clicável */
+}
+
+/* Título principal do filtro */
+.filter-title {
+  font-size: 24px; /* Define um tamanho grande para o título */
+  font-weight: bold; /* Aplica negrito */
+  margin-bottom: 16px; /* Adiciona espaçamento inferior */
+}
+
+/* Subtítulo das seções do filtro */
+.filter-subtitle {
+  font-size: 18px; /* Define um tamanho um pouco menor */
+  font-weight: bold; /* Mantém o negrito */
+  margin-top: 16px; /* Adiciona espaçamento superior */
+}
+
+/* Contêiner das opções de filtro */
+.filter-options {
+  display: flex; /* Usa flexbox para organizar as opções */
+  flex-wrap: wrap; /* Permite que as opções quebrem para a linha de baixo */
+  gap: 10px; /* Define espaçamento entre as opções */
+  justify-content: center; /* Centraliza as opções */
+}
+
+/* Estilo padrão das opções de filtro */
+.filter-option {
+  padding: 10px 20px; /* Adiciona espaçamento interno */
+  border: 1px solid #ccc; /* Adiciona uma borda cinza */
+  border-radius: 8px; /* Arredonda os cantos */
+  background-color: white; /* Fundo branco */
+  cursor: pointer; /* Indica que a opção é clicável */
+}
+
+/* Opção de filtro selecionada */
+.filter-option.selected {
+  background-color: #28a745; /* Fundo verde quando selecionado */
+  color: white; /* Texto branco para contraste */
+  border-color: #28a745; /* Cor da borda combinando com o fundo */
+}
+
+/* Botão para aplicar os filtros */
+.apply-button {
+  margin-top: 20px; /* Espaçamento superior */
+  padding: 10px 20px; /* Adiciona espaçamento interno */
+  background-color: #28a745; /* Fundo verde */
+  color: white; /* Texto branco */
+  border: none; /* Remove a borda */
+  border-radius: 8px; /* Arredonda os cantos */
+  cursor: pointer; /* Indica que é um botão clicável */
+  font-size: 16px; /* Define um tamanho maior para o texto */
+  font-weight: bold; /* Deixa o texto em negrito */ 
+}

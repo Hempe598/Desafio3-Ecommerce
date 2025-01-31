@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // Configuração específica para o React
+    "strict": true, // Ativa verificações estritas no TypeScript
+    "target": "ES2018", // Define a versão do JavaScript para ES6
+    "module": "commonjs", // Sistema de módulos usado
+    "moduleResolution": "node", // Resolução de módulos no estilo Node.js
+    "esModuleInterop": true, // Permite importar módulos ES
+    "forceConsistentCasingInFileNames": true, // Verifica consistência de maiúsculas e minúsculas
+    "skipLibCheck": true // Ignora verificação de tipos em arquivos de declaração
+  }
+}
