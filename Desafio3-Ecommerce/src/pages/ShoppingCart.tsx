@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FiArrowLeft, FiTrash } from "react-icons/fi";
-import { useCart } from "../context/CartContext";
+import { useCart } from "../pages/CartContext";
 import StatusBarImage from "../assets/Status Bar (1).png";
 
 const ShoppingCart = () => {

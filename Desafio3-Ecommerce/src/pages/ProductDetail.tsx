@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
-import { useCart } from "../context/CartContext";
+import { useCart } from "../pages/CartContext";
 import CartIcon from "../pages/CartIcon";
 import Avatar from "../assets/Avatar.png"; // Ajuste o caminho conforme a estrutura do projeto
 

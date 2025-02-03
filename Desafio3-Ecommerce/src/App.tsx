@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { CartProvider } from "./context/CartContext"; // Provedor do carrinho de compras
+import { CartProvider } from "./pages/CartContext"; // Provedor do carrinho de compras
 
 // Importação das páginas do aplicativo
 import SignIn from "./pages/SignIn";
